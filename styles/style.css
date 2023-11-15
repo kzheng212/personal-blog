@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'HeyOctober';
+    src: url('../fonts/HeyOctober.woff2') format('woff2'),
+         url('../fonts/HeyOctober.woff') format('woff'),
+         url('../fonts/HeyOctober.otf') format('otf'),
+         url('../fonts/HeyOctober.ttf') format('ttf');
+}
+
+/* Custom Styles */
+
+.nav-logo{
+    font-family: 'HeyOctober', sans-serif;
+    font-size: 24px;
+    /* width x height --> 75px x 24px */
+    /* width: 125px;
+    height: 40px; */
+}
+
+.px-nav{
+    padding: 0 48px;
+}
+
+/* Default margin for all screen sizes */
+/* Default margin for smaller screens */
+/* .custom-margin {
+    margin: 64px; 
+} */
+
+/* Larger margin for screens larger than 768px (sm breakpoint) */
+/* @media (min-width: 768px) {
+    .custom-margin {
+        margin: 96px;
+    }
+} */
