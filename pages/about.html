@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KevNotes</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font-Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- External Style CSS -->
+    <link rel="stylesheet" href="../styles/style.css" />
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg text-uppercase">
+      <div class="container-fluid d-flex justify-content-between">
+        <a class="navbar-brand fw-bold" href="./index.html">KevNotes</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a
+              class="nav-link px-lg-4 rounded"
+              aria-current="page"
+              href="./index.html"
+              >Home</a
+            >
+            <a class="nav-link px-lg-4 rounded" href="./about.html">About</a>
+            <a class="nav-link px-lg-4 rounded" href="./services.html"
+              >Services</a
+            >
+            <a class="nav-link px-lg-4 rounded" href="./projects.html"
+              >Projects</a
+            >
+            <a class="nav-link px-lg-4 rounded" href="./contact.html"
+              >Contact</a
+            >
+            <!-- Search Form -->
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Section -->`
+    <section class="about py-5">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-5">
+            <img
+              src="../images/anime-male-programmer.jpg"
+              class="img-fluid"
+              alt="img-background"
+            />
+          </div>
+          <div class="col-lg-7 pt-3">
+            <h1>About Me</h1>
+            <p>FULL STACK WEB DEVELOPER</p>
+            <p class="py-3">
+              I am <span class="fw-bold"> Kevin Zheng.</span> Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Quasi facilis mollitia
+              maiores architecto quod dicta aliquam voluptates, autem blanditiis
+              debitis, aut laboriosam! Porro rem sequi aspernatur. Numquam
+              corporis inventore nostrum saepe facere tempora voluptate dolor
+              quidem? Quasi maiores odio deserunt?
+            </p>
+
+            <div class="progress">
+              <div class="pro-value1">
+                <p>HTML / CSS <span class="text-white float-end">95%</span></p>
+              </div>
+            </div>
+
+            <div class="progress my-3">
+              <div class="pro-value2">
+                <p>BOOTSTRAP <span class="text-white float-end">80%</span></p>
+              </div>
+            </div>
+
+            <div class="progress my-3">
+              <div class="pro-value3">
+                <p>
+                  JAVASCRIPT / JQUERY
+                  <span class="text-white float-end">98%</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="progress my-3">
+              <div class="pro-value4">
+                <p>
+                  MYSQL / MONGOOSE <span class="text-white float-end">94%</span>
+                </p>
+              </div>
+            </div>
+            <input type="button" class="btn1 mt-5" value="Download CV" />
+            <input type="button" class="btn2 mt-5" value="Contact Me" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6">
+            <h5>Contact Me</h5>
+            <p>Email: kzheng212@gmail.com</p>
+            <p>Phone: (908) 590-0063</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Follow Me</h5>
+            <a href="www.linkedin.com/in/kevin-zheng-739095136">LinkedIn</a>
+            <br />
+            <a href="https://github.com/kzheng212">GitHub</a>
+          </div>
+        </div>
+        <hr />
+        <p class="text-center mb-4">© 2023 Kevin Zheng's Personal Blog</p>
+      </div>
+    </footer>
+  </body>
+</html>
